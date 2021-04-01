@@ -1,0 +1,13 @@
+//离线安装
+
+sudo dpkg -i 软件包名
+
+查看帮助：man 软件名
+
+查看版本号：sudo dpkg -l 软件名
+
+查看安装详细信息：sudo dpkg -L 软件名
+
+卸载：sudo dpkg -r 软件名（配置信息会被保留u）
+
+完全卸载：sudo dpkg -P 软件名
